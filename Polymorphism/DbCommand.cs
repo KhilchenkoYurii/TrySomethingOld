@@ -4,8 +4,6 @@ public class DbCommand
 {
     private DbConnection _connection;
 
-    public string Instruction { get; set; }
-
     public DbCommand(DbConnection connection)
     {
         if (connection == null)
