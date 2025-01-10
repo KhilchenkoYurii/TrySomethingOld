@@ -19,12 +19,12 @@ namespace Solution
             string str = "keks";
             var something = 2; // var can replace all variable's types
             // overflows
-            bNumber = bNumber + 1;//0
+           // bNumber = bNumber + 1;//0
 
-            checked
-            {
-                bNumber = bNumber + 1;//returns exception with checked
-            }
+            //checked
+            //{
+            //    bNumber = bNumber + 1;//returns exception with checked
+            //}
 
             //scope
             {
@@ -47,7 +47,7 @@ namespace Solution
             //explicit type conversion 
 
             int int2 = 1; //00000000 00000000 00000000 00000001
-            byte byte2 = int2; //                      00000001 won't compile
+            byte byte2;// = int2; //                      00000001 won't compile
 
             // explicit casting
             byte2 = (byte)int2;
