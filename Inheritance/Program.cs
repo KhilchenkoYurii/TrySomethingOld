@@ -1,62 +1,68 @@
 ﻿using System.Collections;
 
-namespace Inheritance
+namespace Inheritance;
+public class Program
 {
-    class Program
+    public void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            checkStack();
-        }
+        checkStack();
+    }
 
-        public static void checkStack()
-        {
-            Stack stack = new Stack();
-            stack.Push(1);
-            stack.Push(2);
-            stack.Push(3);
+    public static void checkStack()
+    {
+        Stack stack = new Stack();
 
-            Console.WriteLine(stack.Pop());
-            Console.WriteLine(stack.Pop());
-            stack.Clear();
-            Console.WriteLine(stack.Pop());
-        }
+        stack.Push(1);
+        stack.Push(2);
+        stack.Push(3);
 
-        public static void checkBoxing()
-        {
-            var list = new ArrayList();
-            list.Add(1);
-            list.Add("Yura");
-            list.Add(new DateTime());
+        Console.WriteLine(stack.Pop());
+        Console.WriteLine(stack.Pop());
 
-            var anotherList = new List<int>();
-            var names = new List<string>();
-        }
+        stack.Clear();
 
-        public static void checkCasting()
-        {
-            Text text = new Text();
-            PresentationObject obj = text;
-            obj.Height = 200;
-            text.Height = 100;
-            Console.WriteLine(obj.Height);
-        }
-        public static void checkConstructors()
-        {
-            var car = new Car(123);
+        Console.WriteLine(stack.Pop());
+    }
 
-        }
-        public static void checkComposition()
-        {
-            DbMigrator dbMigrator = new DbMigrator(new Logger());
+    public static void checkBoxing()
+    {
+        var list = new ArrayList();
 
-            Logger logger = new Logger();
+        list.Add(1);
+        list.Add("Yura");
+        list.Add(new DateTime());
 
-            Installer installer = new Installer(logger);
+        var anotherList = new List<int>();
 
-            installer.Install();
+        var names = new List<string>();
+    }
 
-            dbMigrator.Migrate();
-        }
+    public static void checkCasting()
+    {
+        Text text = new Text();
+
+        PresentationObject obj = text;
+
+        obj.Height = 200;
+        text.Height = 100;
+
+        Console.WriteLine(obj.Height);
+    }
+    public static void checkConstructors()
+    {
+        var car = new Car(123);
+
+    }
+    public static void checkComposition()
+    {
+        DbMigrator dbMigrator = new DbMigrator(new Logger());
+
+        Logger logger = new Logger();
+
+        Installer installer = new Installer(logger);
+
+        installer.Install();
+
+        dbMigrator.Migrate();
     }
 }
