@@ -5,9 +5,7 @@ public class Program
     
     public static void Main(string[] args)
     {
-        
-
-
+        CheckNullable();
     }
 
     public static void TryStandartListClasses()
