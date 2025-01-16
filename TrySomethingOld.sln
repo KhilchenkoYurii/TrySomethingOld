@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Events and Delegates", "Eve
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionMethods", "ExtensionMethods\ExtensionMethods.csproj", "{0D3B80EA-A39D-4691-9655-462FA0D47C89}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ", "LINQ\LINQ.csproj", "{AB567A16-1E04-4F50-AE78-4BB50FCD3C0A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{0D3B80EA-A39D-4691-9655-462FA0D47C89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D3B80EA-A39D-4691-9655-462FA0D47C89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D3B80EA-A39D-4691-9655-462FA0D47C89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB567A16-1E04-4F50-AE78-4BB50FCD3C0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB567A16-1E04-4F50-AE78-4BB50FCD3C0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB567A16-1E04-4F50-AE78-4BB50FCD3C0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB567A16-1E04-4F50-AE78-4BB50FCD3C0A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
