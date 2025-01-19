@@ -43,6 +43,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullableTypes", "NullableTy
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dynamic", "Dynamic\Dynamic.csproj", "{12A9C4A6-3798-4316-96AE-50454FEE13F4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionHandling", "ExceptionHandling\ExceptionHandling.csproj", "{BC9BB90D-537E-4B9F-B2F2-F18603FDCF0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsynchronousProgramming", "AsynchronousProgramming\AsynchronousProgramming.csproj", "{600A1944-FCFF-41A3-8650-C23646EED7BE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +133,14 @@ Global
 		{12A9C4A6-3798-4316-96AE-50454FEE13F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12A9C4A6-3798-4316-96AE-50454FEE13F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12A9C4A6-3798-4316-96AE-50454FEE13F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC9BB90D-537E-4B9F-B2F2-F18603FDCF0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC9BB90D-537E-4B9F-B2F2-F18603FDCF0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC9BB90D-537E-4B9F-B2F2-F18603FDCF0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC9BB90D-537E-4B9F-B2F2-F18603FDCF0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{600A1944-FCFF-41A3-8650-C23646EED7BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{600A1944-FCFF-41A3-8650-C23646EED7BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{600A1944-FCFF-41A3-8650-C23646EED7BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{600A1944-FCFF-41A3-8650-C23646EED7BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
